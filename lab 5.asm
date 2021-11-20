@@ -31,7 +31,7 @@ main proc
     add dl ,48
     mov ah ,2
     int 21h 
-     mov dx ,offset v3
+     mov dx , offset v3
      mov ah ,9
      int 21h
     
